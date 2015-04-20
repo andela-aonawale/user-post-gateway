@@ -5,6 +5,7 @@ module.exports = function(router){
 	router.route("/posts").get(gateway.getAllPosts);
 	router.route("/post/:id")
 	.get(gateway.getOnePost)
+	.put(gateway.updatePost)
 	.delete(gateway.deletePost);
 
 	router.route("/users").get(gateway.getAllUsers);
