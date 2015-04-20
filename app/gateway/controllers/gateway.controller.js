@@ -75,7 +75,7 @@ module.exports = {
 		}
 	},
 
-	signInUser: function(req, res){
+	signIn: function(req, res){
 		request.post({url:url.signin, form: req.body}, function(err,httpResponse,body){
 			res.send(JSON.parse(body));
 		});
@@ -141,6 +141,12 @@ module.exports = {
 				}
 			});
 		}
+	},
+
+	signUp: function(req, res){
+		request.post({url:url.signup, form: req.body}, function(err,httpResponse,body){
+			res.send(JSON.parse(body));
+		});
 	}
 
 }
