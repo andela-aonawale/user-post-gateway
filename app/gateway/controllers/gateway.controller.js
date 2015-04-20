@@ -70,6 +70,7 @@ module.exports = {
 	deleteUser: function(req, res){
 		request.del({url:url.oneUser+req.params.username}, function(err,httpResponse,body){
 			res.send(JSON.parse(body));
+			request.del({url:url.updatePostAuthor+req.params.username, form: req.body}, function(err,httpResponse,body){});
 		});
 	},
 
