@@ -15,7 +15,7 @@ module.exports = function(router){
 	.put(gateway.updateUser)
 	.get(gateway.getOneUser);
 
-	router.route("/signin").post(gateway.signInUser);
-	//router.route("/signup").post(gateway.createUser);
+	router.route("/signin").post(gateway.signIn);
+	router.route("/signup").post(gateway.signUp);
 
 }
