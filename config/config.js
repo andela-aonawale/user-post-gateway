@@ -12,7 +12,8 @@ module.exports = {
 				decodeUser: "http://localhost:8111/api/v1/decode",
 				allUsers: "http://localhost:8111/api/v1/users",
 				oneUser: "http://localhost:8111/api/v1/user/",
-				signin: "http://localhost:8111/api/v1/signin"
+				signin: "http://localhost:8111/api/v1/signin",
+				signup: "http://localhost:8111/api/v1/signup"
 			},
 			secret: 'ammyreal'
 		}
