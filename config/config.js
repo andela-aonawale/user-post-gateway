@@ -5,8 +5,8 @@ module.exports = {
 		development: {
 			url: {
 				allPosts: "http://localhost:8000/api/v1/posts",
-				onePost: "http://localhost:8000/api/v1/posts/",
-				createPost: "http://localhost:8000/api/v1/posts",
+				onePost: "http://localhost:8000/api/v1/post/",
+				createPost: "http://localhost:8000/api/v1/newpost",
 				updatePostAuthor: "http://localhost:8000/api/v1/posts/author/",
 
 				decodeUser: "http://localhost:8111/api/v1/decode",
