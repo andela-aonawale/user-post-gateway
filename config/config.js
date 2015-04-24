@@ -52,6 +52,12 @@ module.exports = {
 
 	},
 
-	port: process.env.PORT || 8222
+	port: process.env.PORT || 8222,
+
+	corsOptions: {
+  	origin: 'http://localhost:8333',
+  	methods: ['GET', 'PUT', 'POST', 'DELETE'],
+  	allowedHeaders: ['Content-Type', 'Authorization']
+	}
 
 }
