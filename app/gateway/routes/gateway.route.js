@@ -17,5 +17,4 @@ module.exports = function(router){
 
 	router.route("/signin").post(gateway.signIn);
 	router.route("/signup").post(gateway.signUp);
-
 }

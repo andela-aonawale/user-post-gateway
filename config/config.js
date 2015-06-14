@@ -36,16 +36,16 @@ module.exports = {
 
 		production: {
 			url: {
-				allPosts: "https://secure-escarpment-1698.herokuapp.com/api/v1/posts",
-				onePost: "https://secure-escarpment-1698.herokuapp.com/api/v1/post/",
-				createPost: "https://secure-escarpment-1698.herokuapp.com/api/v1/newpost",
-				updatePostAuthor: "https://secure-escarpment-1698.herokuapp.com/api/v1/posts/author/",
+				allPosts: "https://post-service.herokuapp.com/api/v1/posts",
+				onePost: "https://post-service.herokuapp.com/api/v1/post/",
+				createPost: "https://post-service.herokuapp.com/api/v1/newpost",
+				updatePostAuthor: "https://post-service.herokuapp.com/api/v1/posts/author/",
 
-				decodeUser: "https://whispering-inlet-1798.herokuapp.com/api/v1/decode",
-				allUsers: "https://whispering-inlet-1798.herokuapp.com/api/v1/users",
-				oneUser: "https://whispering-inlet-1798.herokuapp.com/api/v1/user/",
-				signin: "https://whispering-inlet-1798.herokuapp.com/api/v1/signin",
-				signup: "https://whispering-inlet-1798.herokuapp.com/api/v1/signup"
+				decodeUser: "https://user-crud-service.herokuapp.com/api/v1/decode",
+				allUsers: "https://user-crud-service.herokuapp.com/api/v1/users",
+				oneUser: "https://user-crud-service.herokuapp.com/api/v1/user/",
+				signin: "https://user-crud-service.herokuapp.com/api/v1/signin",
+				signup: "https://user-crud-service.herokuapp.com/api/v1/signup"
 			},
 			secret: '@ammyreal'
 		}
